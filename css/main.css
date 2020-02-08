@@ -1,0 +1,66 @@
+/* GENERAL */
+body{
+  max-width:1024px;
+  margin:0 auto;
+}
+h1{
+  text-align:center;
+  padding:10px;
+}
+h4{
+  font-size:3.2em;
+}
+h6{
+  font-size: 1.3em;
+  color:#999;
+}
+
+#planning, #veille, #offre{
+  background-color: rgb(176,196,222,0.3);
+  border:1px solid #444;
+  margin:10px;
+  border-radius:5px;
+  padding: 20px 10px;
+}
+
+/* HEADER */
+
+/* PLANNING */
+
+#planning{
+
+}
+
+/* VEILLE */
+#veille img{
+  width:100%;
+}
+
+/* OFFRE */
+#offre .annonce{
+  text-align: center;
+}
+#offre .annonce_header{
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 60px 0 30px;
+  background-image: linear-gradient(115deg,rgba(58, 58, 158, 0.6),rgba(136, 136, 206, 0.5)),url(../img/font.jpg);
+  background-size:cover;
+  color:#fff;
+}
+#offre hr{
+  background-color:#fff;
+}
+
+#offre .job{
+  text-align: left;
+}
+
+
+#offre .postuler{
+  padding: 3px 10px;
+  background-color: rgb(135,206,250);
+  color:#fff;
+  border: 1px solid #444;
+  border-radius:3px;
+}
